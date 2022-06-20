@@ -1,10 +1,58 @@
+
+
+
+
+
+
+
+
+
+//Objects
+
+
+
+//Arrays - List of Values 
+/*
+var list = ["Redolf","Anita","Bucky","Angela",100,true,false,];
+    list2 = [];
+    list3 = new Array(18,false); 
+
+var listy = ["Hans","Mata","Becham"],
+    listy2 = [],
+    listy3 = new Array("Cena","Yul"); 
+
+    list.push("Kwame"); // push method adds an item to an array adds,| Kwame to array
+    list.pop(); //pop method removes the last item from an array | removes Kwame
+
+var firstItemRemoved = list.shift(); //shift method removes an item from the start or front of an array
+var secondtItemRemoved = list.shift();
+    list.unshift("Christable"); //unshift adds an item to the from of an array 
+    list.indexOf(100); //index of gives the index of an element. 
+*/
+
+
+
+
+
+    
+/*
+function avg(num1, num2) {
+    alert("The age of the man is " + (num1 + num2));
+    alert("The age of the children too are " + num1 + " and " + num2);
+}
+*/
+
+
+
+
+
+
 /*
 Dog Age to Human Age App. 
 Dog Age to Human Age Formula 
 humanAge = (dogAge - 2) X 4 + 21
 */
-
-
+/*
 function humanAge() {
     var dogName = prompt("What is your dog's name? ");
     var dogAge = prompt ("What is your dog's age? ");
@@ -12,9 +60,14 @@ function humanAge() {
 
     alert("Hey " + dogName + " your human age is " + humanAge);
 }
+*/
+
+
+
+
+
 
 //Welcome a user with his name being in the form of a title case. eg Hello Alex
-
 /*
 function welcomeHome2() {
 
@@ -31,6 +84,10 @@ function welcomeHome2() {
 }
 */
 
+
+
+
+
 /*
 function welcomeHome() {
     var firstName = prompt("What is you name?");
@@ -40,12 +97,13 @@ function welcomeHome() {
 
 
 
+
+
 //You have written 7 characters, you have 43 characters left. 
 /*
 Tweet count 
 Slicing 
 */
-
 /*
 function tweetCount() {
     var totalcharss = 50; 
@@ -66,6 +124,9 @@ function tweetCount() {
 }
 */
 
+
+
+
 /*
 function upperCasefunction(){
     // alert("Hello buddy");
@@ -75,8 +136,15 @@ function upperCasefunction(){
 }
 */
 
-/*
+
+
+
+
+
+
+
 //Slicing
+/*
 var firstName = "Redolf";
 alert(firstName);
 var slicedName = firstName.slice(0,1);
